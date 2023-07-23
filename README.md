@@ -14,6 +14,15 @@ Mainly as a repository
 😕Gitee 奇怪的机制迫使我只能在Github活跃
 
 Gitee's strange rules force me to be active on Github
+
+![GitHub账户信息统计](https://github-stats.ubrong.com/api?username=little-data&show_icons=true)
+
+**b站统计**
+
+![B站统计](https://stats.justsong.cn/api/bilibili/?id=357695126)
+
+**本页访问次数/Visitor Count**
+![Visitor Count](https://profile-counter.glitch.me/little-data/count.svg)
 <!---
 Little-Data/Little-Data is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
