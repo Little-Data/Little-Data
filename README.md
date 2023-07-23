@@ -29,11 +29,6 @@ Gitee's strange rules force me to be active on Github
 
 ![B站统计](https://stats.justsong.cn/api/bilibili/?id=357695126)
 
-**最新博文/Latest Blog Posts**
-
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
-
 **本页访问次数/Visitor Count**
 
 ![Visitor Count](https://profile-counter.glitch.me/little-data/count.svg)
