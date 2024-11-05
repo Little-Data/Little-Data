@@ -23,16 +23,24 @@ Mainly as a repository
 
 Gitee's strange rules force me to be active on Github
 
-![GitHub账户信息统计](https://github-stats.ubrong.com/api?username=little-data&show_icons=true)
 
 **b站统计**
 
 ![B站统计](https://stats.justsong.cn/api/bilibili/?id=357695126)
 
+Like this? 喜欢这个？来自：[网站数据卡片](https://stats.justsong.cn)
+
 **本页访问次数/Visitor Count**
 
-![Visitor Count](https://profile-counter.glitch.me/little-data/count.svg)
+`2024年11月05`日前的访问次数为：`1373`/The number of visits before `November 05, 2024` is: `1373`
+
+自从`2024年11月05`日开始/From 05 November 2024
+
+<img src="https://ivy-ring-gray.glitch.me/@Li?theme=original-new&darkmode=auto" alt="li" />
+
+Like this? 喜欢这个？来自：[Moe Counter](https://github.com/journey-ad/Moe-Counter)
 <!---
 Little-Data/Little-Data is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
+![Visitor Count](https://profile-counter.glitch.me/little-data/count.svg)
 --->
