@@ -32,11 +32,11 @@ Like this? 喜欢这个？来自：[网站数据卡片](https://stats.justsong.c
 
 **本页访问次数/Visitor Count**
 
-`2024年11月05`日前的访问次数为：`1373`/The number of visits before `November 05, 2024` is: `1373`
+`2024年11月05日`前的访问次数为：`1373`/The number of visits before `November 05, 2024` is: `1373`
 
-自从`2024年11月05`日开始/From 05 November 2024
+自从`2025年04月18日`开始/From April 18, 2025
 
-<img src="https://ivy-ring-gray.glitch.me/@Li?theme=original-new&darkmode=auto" alt="li" />
+<img src="https://count.getloli.com/@Li?theme=original-new&darkmode=auto" alt="li" />
 
 Like this? 喜欢这个？来自：[Moe Counter](https://github.com/journey-ad/Moe-Counter)
 <!---
