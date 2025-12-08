@@ -24,11 +24,12 @@ Mainly as a repository
 Gitee's strange rules force me to be active on Github
 
 
-**b站统计**
+**b站卡片**
 
-![B站统计](https://stats.justsong.cn/api/bilibili/?id=357695126)
+<img height="450px" src="/bili/UP_card_light.png#gh-light-mode-only" />
+<img height="450px" src="/bili/UP_card_dark.png#gh-dark-mode-only" />
 
-Like this? 喜欢这个？来自：[网站数据卡片](https://stats.justsong.cn)
+Like this? 喜欢这个？来自：[bili_UP_data_card](https://github.com/Little-Data/bili_UP_data_card)
 
 **本页访问次数/Visitor Count**
 
@@ -39,6 +40,7 @@ Like this? 喜欢这个？来自：[网站数据卡片](https://stats.justsong.c
 <img src="https://count.getloli.com/@Li?theme=original-new&darkmode=auto" alt="li" />
 
 Like this? 喜欢这个？来自：[Moe Counter](https://github.com/journey-ad/Moe-Counter)
+
 <!---
 Little-Data/Little-Data is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
