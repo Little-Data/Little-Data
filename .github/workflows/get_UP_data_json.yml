@@ -1,0 +1,42 @@
+name: get_UP_data_json
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+    inputs:
+      target_branch:
+        description: '指定提交数据的目标分支'
+        required: true
+        default: 'main'  # 默认提交到 main 分支
+
+jobs:
+  fetch-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 检出代码仓库
+        uses: actions/checkout@v4
+      
+      - name: 设置Python环境
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
+      
+      - name: 安装依赖
+        run: |
+          python -m pip install --upgrade pip
+          pip install aiohttp
+      
+      - name: 数据获取
+        run: |
+          python get_UP_data.py -m 357695126
+      
+      - name: 提交更新的数据文件
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          git add ./bili/UP_data.json
+          git commit -m "自动更新B站用户数据: $(date +'%Y-%m-%d')" || echo "无数据更新"
+          git push
+          git push origin HEAD:${{ github.event.inputs.target_branch || github.ref_name }}
