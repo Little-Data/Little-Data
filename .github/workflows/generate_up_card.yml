@@ -1,8 +1,12 @@
 name: generate_up_card
 
 on:
+  workflow_run:
+    workflows: ["get_UP_data_json"]
+    branches: [main]
+    types: [completed]
   schedule:
-    - cron: '1 0 * * *'
+    - cron: '0 0 * * *'
   workflow_dispatch:
     inputs:
       target_branch:
