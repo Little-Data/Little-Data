@@ -5,8 +5,6 @@ on:
     workflows: ["get_UP_data_json"]
     branches: [main]
     types: [completed]
-  schedule:
-    - cron: '0 0 * * *'
   workflow_dispatch:
     inputs:
       target_branch:
@@ -17,7 +15,10 @@ on:
 jobs:
   generate-and-commit:
     runs-on: ubuntu-latest
-    
+    if: >
+      (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success') ||
+      github.event_name == 'workflow_dispatch'
+
     steps:
       - name: 拉取代码仓库
         uses: actions/checkout@v4
@@ -46,10 +47,12 @@ jobs:
           python UP_data_gen_img.py --input ./bili/UP_data.json --output ./bili/UP_card
       
       - name: 提交更改到仓库
+        env:
+          # 传递目标分支参数
+          TARGET_BRANCH: ${{ github.event.inputs.target_branch || github.ref_name }}
         run: |
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'actions@github.com'
           git add ./bili/
           git commit -m "更新UP主数据卡片 $(date +'%Y-%m-%d')" || echo "无数据更新"
-          git push
-          git push origin HEAD:${{ github.event.inputs.target_branch || github.ref_name }}
+          git push origin HEAD:$TARGET_BRANCH
