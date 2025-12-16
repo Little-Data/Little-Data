@@ -38,5 +38,4 @@ jobs:
           git config --global user.email 'actions@github.com'
           git add ./bili/UP_data.json
           git commit -m "自动更新B站用户数据: $(date +'%Y-%m-%d')" || echo "无数据更新"
-          git push
           git push origin HEAD:${{ github.event.inputs.target_branch || github.ref_name }}
