@@ -47,6 +47,8 @@ Gitee's strange rules force me to be active on Github
   发布日期：2025-11-09 14:44:00
 <!-- BLOG-POST-LIST:END -->
 
+是的，上面的列表会自动更新
+
 **b站卡片**
 
 <img height="450px" src="/bili/UP_card_light.png#gh-light-mode-only" />
