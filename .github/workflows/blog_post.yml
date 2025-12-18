@@ -1,0 +1,21 @@
+name: Latest blog post workflow
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+
+jobs:
+  update-readme-with-blog:
+    name: Update this repo's README with latest blog posts
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v6
+        
+      - name: 推送文章标题
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://little-data.eu.org/rss.xml"
+          max_post_count: 10
