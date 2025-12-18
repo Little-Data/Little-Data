@@ -1,21 +1,50 @@
-name: Latest blog post workflow
+# 工作流名称
+name: Update Blog Posts from RSS
+
+# 触发条件
 on:
+  # 每天 UTC 0 点运行（cron 表达式：分 时 日 月 周）
   schedule:
     - cron: '0 0 * * *'
   workflow_dispatch:
-permissions:
-  contents: write
 
+# 工作流任务
 jobs:
-  update-readme-with-blog:
-    name: Update this repo's README with latest blog posts
+  update-readme:
+    # 运行环境：Ubuntu 最新版
     runs-on: ubuntu-latest
     steps:
-      - name: 检出代码
+      - name: 检出仓库
         uses: actions/checkout@v6
-        
-      - name: 推送文章标题
-        uses: gautamkrishnar/blog-post-workflow@v1
+
+      - name: 安装python
+        uses: actions/setup-python@v6
         with:
-          feed_list: "https://little-data.eu.org/rss.xml"
-          max_post_count: 10
+          python-version: '3.14'
+
+      - name: 安装依赖
+        run: |
+          python -m pip install --upgrade pip
+          pip install feedparser
+
+      - name: 运行脚本
+        run: python rss.py --rss-url "https://little-data.eu.org/rss.xml" --count 10
+
+      - name: 提交更改
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GIT_COMMITTER_NAME: 'github-actions[bot]'
+          GIT_COMMITTER_EMAIL: 'github-actions[bot]@users.noreply.github.com'
+          GIT_AUTHOR_NAME: 'github-actions[bot]'
+          GIT_AUTHOR_EMAIL: 'github-actions[bot]@users.noreply.github.com'
+        run: |
+          # 检查是否有文件变更
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "文件无更改"
+            exit 0
+          fi
+          # 提交变更
+          git commit -m "chore: update blog posts from RSS $(date +'%Y-%m-%d')"
+          # 推送到仓库（注意：默认推送到当前分支，如 main/master）
+          git push origin HEAD:${{ github.ref }}
