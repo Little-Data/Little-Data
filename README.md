@@ -25,6 +25,26 @@ Gitee's strange rules force me to be active on Github
 
 **看一下我的博客文章吧**
 <!-- BLOG-POST-LIST:START -->
+- [npm包更新管理](https://little-data.eu.org/npm_packages_update_management)
+  发布日期：2025-12-04 18:16:00
+- [DBeaver相关配置](https://little-data.eu.org/DBeaver_settings)
+  发布日期：2025-12-04 17:24:00
+- [LibreOffice 实现单独为某一页设置页眉和页脚](https://little-data.eu.org/LibreOffice_set_header_and_footer_for_individual_pages)
+  发布日期：2025-11-20 19:08:00
+- [QQ邮箱的表情符号介绍页面](https://little-data.eu.org/QQmail_about_symbolization)
+  发布日期：2025-11-17 23:27:00
+- [使用Node.js 25.2.0 时构建Docusaurus出现错误](https://little-data.eu.org/Docusaurus-error-nodejs2520)
+  发布日期：2025-11-17 23:15:00
+- [为Docusaurus增加giscus评论功能](https://little-data.eu.org/add-giscus-to-docusaurus)
+  发布日期：2025-11-17 00:56:00
+- [eclipse相关配置](https://little-data.eu.org/eclipse_settings)
+  发布日期：2025-11-09 15:43:00
+- [解决yarn被系统禁止运行](https://little-data.eu.org/prohibiting_the_execution_of_yarn_scripts)
+  发布日期：2025-11-09 15:06:00
+- [升级Wiki.js2.0](https://little-data.eu.org/update_wikijs2_0)
+  发布日期：2025-11-09 14:53:00
+- [批处理脚本](https://little-data.eu.org/batch_scripts)
+  发布日期：2025-11-09 14:44:00
 <!-- BLOG-POST-LIST:END -->
 
 **b站卡片**
