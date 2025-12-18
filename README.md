@@ -23,6 +23,9 @@ Mainly as a repository
 
 Gitee's strange rules force me to be active on Github
 
+**看一下我的博客文章吧**
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
 
 **b站卡片**
 
