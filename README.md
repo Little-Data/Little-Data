@@ -25,6 +25,8 @@ Gitee's strange rules force me to be active on Github
 
 **看一下我的博客文章吧**
 <!-- BLOG-POST-LIST:START -->
+- [关闭edge默认浏览器和推荐设置提醒](https://little-data.eu.org/turn_off_msedge_recommendations)
+  发布日期：2025-12-29 00:39:00
 - [npm包更新管理](https://little-data.eu.org/npm_packages_update_management)
   发布日期：2025-12-04 18:16:00
 - [DBeaver相关配置](https://little-data.eu.org/DBeaver_settings)
@@ -43,8 +45,6 @@ Gitee's strange rules force me to be active on Github
   发布日期：2025-11-09 15:06:00
 - [升级Wiki.js2.0](https://little-data.eu.org/update_wikijs2_0)
   发布日期：2025-11-09 14:53:00
-- [批处理脚本](https://little-data.eu.org/batch_scripts)
-  发布日期：2025-11-09 14:44:00
 <!-- BLOG-POST-LIST:END -->
 
 是的，上面的列表会自动更新
