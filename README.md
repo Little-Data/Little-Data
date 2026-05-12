@@ -25,6 +25,12 @@ Gitee's strange rules force me to be active on Github
 
 **看一下我的博客文章吧**
 <!-- BLOG-POST-LIST:START -->
+- [魔法书签（bookmarklet）](https://little-data.eu.org/bookmarklet)
+  发布日期：2026-05-12 00:36:00
+- [升级docusaurus从3.9.2到3.10.1](https://little-data.eu.org/update_docusaurus_3.9.2_to_3.10.1)
+  发布日期：2026-05-12 00:06:00
+- [火狐HDR问题缓解](https://little-data.eu.org/Firefox_HDR_issue_mitigation)
+  发布日期：2026-02-21 00:28:00
 - [关闭edge默认浏览器和推荐设置提醒](https://little-data.eu.org/turn_off_msedge_recommendations)
   发布日期：2025-12-29 00:39:00
 - [npm包更新管理](https://little-data.eu.org/npm_packages_update_management)
@@ -39,12 +45,6 @@ Gitee's strange rules force me to be active on Github
   发布日期：2025-11-17 23:15:00
 - [为Docusaurus增加giscus评论功能](https://little-data.eu.org/add-giscus-to-docusaurus)
   发布日期：2025-11-17 00:56:00
-- [eclipse相关配置](https://little-data.eu.org/eclipse_settings)
-  发布日期：2025-11-09 15:43:00
-- [解决yarn被系统禁止运行](https://little-data.eu.org/prohibiting_the_execution_of_yarn_scripts)
-  发布日期：2025-11-09 15:06:00
-- [升级Wiki.js2.0](https://little-data.eu.org/update_wikijs2_0)
-  发布日期：2025-11-09 14:53:00
 <!-- BLOG-POST-LIST:END -->
 
 是的，上面的列表会自动更新
