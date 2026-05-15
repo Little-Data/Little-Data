@@ -25,6 +25,10 @@ Gitee's strange rules force me to be active on Github
 
 **看一下我的博客文章吧**
 <!-- BLOG-POST-LIST:START -->
+- [linux 安装 VirtualBox Guest Additions(debian)](https://little-data.eu.org/install_VirtualBox_Guest_Additions_in_linux_debian)
+  发布日期：2026-05-15 00:06:00
+- [linux 使用高版本 nodejs(debian)](https://little-data.eu.org/use_new_nodejs_version_in_linux_debian)
+  发布日期：2026-05-14 02:23:00
 - [魔法书签（bookmarklet）](https://little-data.eu.org/bookmarklet)
   发布日期：2026-05-12 00:36:00
 - [升级docusaurus从3.9.2到3.10.1](https://little-data.eu.org/update_docusaurus_3.9.2_to_3.10.1)
@@ -41,10 +45,6 @@ Gitee's strange rules force me to be active on Github
   发布日期：2025-11-20 19:08:00
 - [QQ邮箱的表情符号介绍页面](https://little-data.eu.org/QQmail_about_symbolization)
   发布日期：2025-11-17 23:27:00
-- [使用Node.js 25.2.0 时构建Docusaurus出现错误](https://little-data.eu.org/Docusaurus-error-nodejs2520)
-  发布日期：2025-11-17 23:15:00
-- [为Docusaurus增加giscus评论功能](https://little-data.eu.org/add-giscus-to-docusaurus)
-  发布日期：2025-11-17 00:56:00
 <!-- BLOG-POST-LIST:END -->
 
 是的，上面的列表会自动更新
