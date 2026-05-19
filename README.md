@@ -25,6 +25,8 @@ Gitee's strange rules force me to be active on Github
 
 **看一下我的博客文章吧**
 <!-- BLOG-POST-LIST:START -->
+- [在 Docusaurus 的 Blog 页面中添加回到顶部按钮](https://little-data.eu.org/Add_back_to_top_for_Docusaurus_blog)
+  发布日期：2026-05-19 01:39:00
 - [在 Docusaurus 页面中添加测验](https://little-data.eu.org/add_the_exam_in_docusaurus)
   发布日期：2026-05-17 22:49:00
 - [linux 安装 VirtualBox Guest Additions(debian)](https://little-data.eu.org/install_VirtualBox_Guest_Additions_in_linux_debian)
@@ -43,8 +45,6 @@ Gitee's strange rules force me to be active on Github
   发布日期：2025-12-04 18:16:00
 - [DBeaver相关配置](https://little-data.eu.org/DBeaver_settings)
   发布日期：2025-12-04 17:24:00
-- [LibreOffice 实现单独为某一页设置页眉和页脚](https://little-data.eu.org/LibreOffice_set_header_and_footer_for_individual_pages)
-  发布日期：2025-11-20 19:08:00
 <!-- BLOG-POST-LIST:END -->
 
 是的，上面的列表会自动更新
