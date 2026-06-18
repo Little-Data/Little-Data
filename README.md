@@ -25,6 +25,8 @@ Gitee's strange rules force me to be active on Github
 
 **看一下我的博客文章吧**
 <!-- BLOG-POST-LIST:START -->
+- [Windows 系统自我修复命令](https://little-data.eu.org/Windows_System_Self_Repair_Command)
+  发布日期：2026-06-17 20:13:00
 - [JMeter 实用配置](https://little-data.eu.org/JMeter_Practical_Configuration)
   发布日期：2026-05-27 13:30:00
 - [在 Docusaurus 的 Blog 页面中添加回到顶部按钮](https://little-data.eu.org/Add_back_to_top_for_Docusaurus_blog)
@@ -43,8 +45,6 @@ Gitee's strange rules force me to be active on Github
   发布日期：2026-02-21 00:28:00
 - [关闭edge默认浏览器和推荐设置提醒](https://little-data.eu.org/turn_off_msedge_recommendations)
   发布日期：2025-12-29 00:39:00
-- [npm包更新管理](https://little-data.eu.org/npm_packages_update_management)
-  发布日期：2025-12-04 18:16:00
 <!-- BLOG-POST-LIST:END -->
 
 是的，上面的列表会自动更新
