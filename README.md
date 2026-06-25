@@ -33,7 +33,7 @@ Gitee's strange rules force me to be active on Github
   发布日期：2026-05-19 01:39:00
 - [在 Docusaurus 页面中添加测验](https://little-data.eu.org/add_the_exam_in_docusaurus)
   发布日期：2026-05-17 22:49:00
-- [linux 安装 VirtualBox Guest Additions(debian)](https://little-data.eu.org/install_VirtualBox_Guest_Additions_in_linux_debian)
+- [linux 安装 VirtualBox Guest Additions](https://little-data.eu.org/install_VirtualBox_Guest_Additions_in_linux)
   发布日期：2026-05-15 00:06:00
 - [linux 使用高版本 nodejs(debian)](https://little-data.eu.org/use_new_nodejs_version_in_linux_debian)
   发布日期：2026-05-14 02:23:00
