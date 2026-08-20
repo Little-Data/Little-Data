@@ -25,6 +25,8 @@ Gitee's strange rules force me to be active on Github
 
 **看一下我的博客文章吧**
 <!-- BLOG-POST-LIST:START -->
+- [树莓派实用优化](https://little-data.eu.org/Practical_Raspberry_Pi_Optimization)
+  发布日期：2026-08-16 21:54:00
 - [新版 Python 安装方法](https://little-data.eu.org/New_Python_Installation_Way)
   发布日期：2026-06-26 22:37:00
 - [Windows 系统自我修复命令](https://little-data.eu.org/Windows_System_Self_Repair_Command)
@@ -43,8 +45,6 @@ Gitee's strange rules force me to be active on Github
   发布日期：2026-05-12 00:36:00
 - [升级docusaurus从3.9.2到3.10.1](https://little-data.eu.org/update_docusaurus_3.9.2_to_3.10.1)
   发布日期：2026-05-12 00:06:00
-- [火狐HDR问题缓解](https://little-data.eu.org/Firefox_HDR_issue_mitigation)
-  发布日期：2026-02-21 00:28:00
 <!-- BLOG-POST-LIST:END -->
 
 是的，上面的列表会自动更新
