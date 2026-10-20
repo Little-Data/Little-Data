@@ -1,15 +1,15 @@
 {
-  "archive_count": null,
-  "follower": null,
-  "like_num": null,
-  "name": null,
-  "sex": null,
-  "face": null,
-  "friend": null,
-  "sign": null,
-  "current_level": null,
+  "archive_count": 460,
+  "follower": 8401,
+  "like_num": 78334,
+  "name": "HAF半个水果",
+  "sex": "男",
+  "face": "https://i2.hdslb.com/bfs/face/482aeb3403f268fd36104edc83feb24415eb56ee.jpg",
+  "friend": 263,
+  "sign": "Half A Fruit(半个水果)\n一个多分区UP主\nLittle Data是我储存数据使用的名称。\n字幕开源，详情请看动态",
+  "current_level": 6,
   "article": 66,
   "album": 366,
   "opus": 432,
-  "update_time": "2026-10-20 10:32:00"
+  "update_time": "2026-10-21 02:55:36"
 }
