@@ -25,6 +25,8 @@ Gitee's strange rules force me to be active on Github
 
 **看一下我的博客文章吧**
 <!-- BLOG-POST-LIST:START -->
+- [让指定文件不受 git 版本控制](https://little-data.eu.org/Keep_the_file_out_of_git_version_control)
+  发布日期：2026-11-26 21:52:00
 - [树莓派实用优化](https://little-data.eu.org/Practical_Raspberry_Pi_Optimization)
   发布日期：2026-08-16 21:54:00
 - [新版 Python 安装方法](https://little-data.eu.org/New_Python_Installation_Way)
@@ -43,8 +45,6 @@ Gitee's strange rules force me to be active on Github
   发布日期：2026-05-14 02:23:00
 - [魔法书签（bookmarklet）](https://little-data.eu.org/bookmarklet)
   发布日期：2026-05-12 00:36:00
-- [升级docusaurus从3.9.2到3.10.1](https://little-data.eu.org/update_docusaurus_3.9.2_to_3.10.1)
-  发布日期：2026-05-12 00:06:00
 <!-- BLOG-POST-LIST:END -->
 
 是的，上面的列表会自动更新
